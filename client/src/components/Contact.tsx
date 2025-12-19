@@ -71,7 +71,7 @@ export function Contact() {
                   <MapPin className="text-accent w-6 h-6" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-white text-lg mb-1">Adress</h4>
+                  <h4 className="font-bold text-white text-lg mb-1">Address</h4>
                   <p className="text-blue-100">Gremda Km 10<br/>Sfax, Tunisia</p>
                 </div>
               </div>
