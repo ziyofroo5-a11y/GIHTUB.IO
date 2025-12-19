@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import injectionMachineImg from "@assets/stock_images/plastic_injection_mo_ea981340.jpg";
 
 export function Hero() {
   return (
@@ -7,7 +8,7 @@ export function Hero() {
       <div className="absolute inset-0 z-0">
         {/* industrial machinery background */}
         <img
-          src="https://pixabay.com/get/g3efeffdd01a0ee31e25d9b7fda291e007421e22f6e9ef1e17fedbe64da7bc4514ca948a2775c152a1bbff45784fe5ec54e8b43916e764b88caac535d37ccdcf9_1280.jpg"
+          src={injectionMachineImg}
           alt="Industrial Injection Molding"
           className="w-full h-full object-cover"
         />
