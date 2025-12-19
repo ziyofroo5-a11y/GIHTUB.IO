@@ -62,7 +62,7 @@ export function Contact() {
             <h2 className="text-accent text-sm font-bold tracking-[0.2em] uppercase mb-3">Get In Touch</h2>
             <h3 className="text-4xl md:text-5xl font-display font-bold text-white mb-8">Start Your Project</h3>
             <p className="text-blue-100 text-lg mb-12 max-w-md leading-relaxed">
-              Ready to optimize your production? Contact our engineering team for a consultation on your mold design and injection molding needs.
+              Ready to get your products into your own hands ? Contact our engineering team for a free consultation or a meeting.
             </p>
 
             <div className="space-y-8">
@@ -71,7 +71,7 @@ export function Contact() {
                   <MapPin className="text-accent w-6 h-6" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-white text-lg mb-1">Visit Us</h4>
+                  <h4 className="font-bold text-white text-lg mb-1">Adress</h4>
                   <p className="text-blue-100">Gremda Km 10<br/>Sfax, Tunisia</p>
                 </div>
               </div>
@@ -81,9 +81,9 @@ export function Contact() {
                   <Mail className="text-accent w-6 h-6" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-white text-lg mb-1">Email Us</h4>
-                  <a href="mailto:contact@plastenza.tn" className="text-blue-100 hover:text-white transition-colors">
-                    contact@plastenza.tn
+                  <h4 className="font-bold text-white text-lg mb-1">Email</h4>
+                  <a href="mailto:contact@plastenza.com" className="text-blue-100 hover:text-white transition-colors">
+                    contact@plastenza.com
                   </a>
                 </div>
               </div>
@@ -93,9 +93,9 @@ export function Contact() {
                   <Phone className="text-accent w-6 h-6" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-white text-lg mb-1">Call Us</h4>
-                  <a href="tel:+216XXXXXX" className="text-blue-100 hover:text-white transition-colors">
-                    +216 XX XXX XXX
+                  <h4 className="font-bold text-white text-lg mb-1">Phone / Whatsapp</h4>
+                  <a href="tel:+21624731700" className="text-blue-100 hover:text-white transition-colors">
+                    +216 24 731 700
                   </a>
                 </div>
               </div>

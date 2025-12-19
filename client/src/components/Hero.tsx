@@ -27,7 +27,7 @@ export function Hero() {
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-2xl font-light leading-relaxed animate-in fade-in slide-in-from-bottom-8 duration-700 delay-200">
-            From idea to final part. We support clients with product development, mold making, injection molding, and reliable industrial production.
+           We simply bring any plastic product into life.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 animate-in fade-in slide-in-from-bottom-8 duration-700 delay-300">
@@ -39,12 +39,12 @@ export function Hero() {
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </button>
             
-            <button 
+            {/* <button 
               onClick={() => document.getElementById('products')?.scrollIntoView({ behavior: 'smooth' })}
               className="px-8 py-4 bg-transparent border-2 border-white text-white font-bold uppercase tracking-widest text-lg rounded-sm hover:bg-white hover:text-primary transition-all duration-300"
             >
               View Products
-            </button>
+            </button> */}
           </div>
         </div>
       </div>

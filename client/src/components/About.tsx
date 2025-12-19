@@ -20,7 +20,7 @@ export function About() {
             </div>
             
             <div className="absolute -bottom-8 -left-8 bg-primary text-white p-8 rounded-sm shadow-xl hidden md:block max-w-xs">
-              <p className="font-display text-4xl font-bold mb-1">25+</p>
+              <p className="font-display text-4xl font-bold mb-1">30+</p>
               <p className="uppercase tracking-wider text-sm text-gray-300">Years of Industrial Experience</p>
             </div>
           </div>
@@ -40,7 +40,6 @@ export function About() {
               {[
                 "Decades of specialized mold design expertise",
                 "State-of-the-art in-house tooling & fabrication",
-                "ISO certified quality management systems",
                 "Cost-effective production scaling"
               ].map((item, i) => (
                 <div key={i} className="flex items-center gap-3">

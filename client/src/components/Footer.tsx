@@ -1,4 +1,4 @@
-import { Facebook, Linkedin, Twitter } from "lucide-react";
+import { Facebook, Linkedin, Twitter  } from "lucide-react";
 
 export function Footer() {
   return (
@@ -40,7 +40,7 @@ export function Footer() {
             <h4 className="font-bold text-white uppercase tracking-wider mb-6 text-sm">Services</h4>
             <ul className="space-y-3 text-sm text-gray-400">
               <li>Mold Design & Engineering</li>
-              <li>CNC Machining</li>
+              <li>Manufacturing</li>
               <li>Plastic Injection Molding</li>
               <li>Assembly & Packaging</li>
             </ul>
@@ -50,8 +50,8 @@ export function Footer() {
             <h4 className="font-bold text-white uppercase tracking-wider mb-6 text-sm">Contact Info</h4>
             <ul className="space-y-3 text-sm text-gray-400">
               <li>Gremda Km 10, Sfax, Tunisia</li>
-              <li>+216 XX XXX XXX</li>
-              <li>contact@plastenza.tn</li>
+              <li>+216 24 731 700</li>
+              <li>contact@plastenza.com</li>
             </ul>
           </div>
         </div>
