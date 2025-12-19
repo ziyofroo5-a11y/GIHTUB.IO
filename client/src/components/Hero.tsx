@@ -1,19 +1,18 @@
 import { ArrowRight } from "lucide-react";
-import injectionMachineImg from "@assets/stock_images/plastic_injection_mo_ea981340.jpg";
+import processFlowImg from "@assets/ChatGPT_Image_19_déc._2025,_21_24_51_1766176049014.png";
 
 export function Hero() {
   return (
     <section className="relative h-screen min-h-[700px] flex items-center justify-center overflow-hidden bg-primary">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        {/* industrial machinery background */}
+        {/* Manufacturing process flow background */}
         <img
-          src={injectionMachineImg}
-          alt="Industrial Injection Molding"
+          src={processFlowImg}
+          alt="Plastenza Manufacturing Process"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/80 to-primary/40 mix-blend-multiply" />
-        <div className="absolute inset-0 bg-black/30" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30" />
       </div>
 
       <div className="container relative z-10 px-4 sm:px-6 lg:px-8 text-center sm:text-left">
