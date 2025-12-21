@@ -31,9 +31,9 @@ export function Contact() {
         form.current?.reset();
     }, 1500);
 
-    /* 
+    
     // Real implementation:
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+    emailjs.sendForm('service_b5t4hhp', 'template_ga81jag', form.current, 'LV9Ewdm0sSznKybKR')
       .then((result) => {
           setLoading(false);
           setSuccess(true);
@@ -50,7 +50,7 @@ export function Contact() {
             variant: "destructive"
           });
       });
-    */
+    
   };
 
   return (
