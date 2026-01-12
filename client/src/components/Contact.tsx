@@ -15,24 +15,6 @@ export function Contact() {
 
     setLoading(true);
 
-    // NOTE: These are placeholders. You need to replace them with your actual EmailJS credentials
-    // Service ID: service_xxxxx
-    // Template ID: template_xxxxx
-    // Public Key: xxxxxxxx
-    
-    // Simulating success for the UI demo since credentials aren't real
-    setTimeout(() => {
-        setLoading(false);
-        setSuccess(true);
-        toast({
-          title: "Message Sent!",
-          description: "We'll get back to you within 24 hours.",
-        });
-        form.current?.reset();
-    }, 1500);
-
-    
-    // Real implementation:
     emailjs.sendForm('service_b5t4hhp', 'template_ga81jag', form.current, 'LV9Ewdm0sSznKybKR')
       .then((result) => {
           setLoading(false);
@@ -50,7 +32,6 @@ export function Contact() {
             variant: "destructive"
           });
       });
-    
   };
 
   return (
