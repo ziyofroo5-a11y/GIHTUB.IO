@@ -15,7 +15,7 @@ export function Contact() {
 
     setLoading(true);
 
-    emailjs.sendForm('service_b5t4hhp', 'template_ga81jag', form.current, 'LV9Ewdm0sSznKybKR')
+    emailjs.sendForm('service_b5t4hhp', 'template_bsfi5ku', form.current, 'LV9Ewdm0sSznKybKR')
       .then((result) => {
           setLoading(false);
           setSuccess(true);
